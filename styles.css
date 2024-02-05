@@ -1,10 +1,17 @@
 * {
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    color: white;
+}
+
+body {
+    background-color: black;
 }
 
 .header-container {
     display: flex;
+    flex: 1;
     justify-content: space-between;
     align-items: center;
     height: 80px;
@@ -14,14 +21,48 @@
 
 .header-logo {
     padding-left: 30px;
+    font-size: 22px;
+    color: rgb(211, 185, 151);
 }
 
 .header-menu {
     display: flex;
-    gap: 10px;
-    font-size: 20px;
+    gap: 24px;
+    font-size: 16px;
 }
 
 .header-socials {
+    display: flex;
+    gap: 14px;
     padding-right: 30px;
+}
+
+.intro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    height: 650px;
+
+    background-image: url(./images/Achtergrond4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.intro-text {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.band-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.band-photo {
+    height: 700px;
+    width: auto;
 }
