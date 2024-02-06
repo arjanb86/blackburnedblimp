@@ -45,9 +45,10 @@ body {
     height: 650px;
 
     background-image: url(./images/Achtergrond4.png);
+    background-color: rgba(16,8,6,.4);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
 }
 
 .intro-text {
@@ -65,4 +66,22 @@ body {
 .band-photo {
     height: 700px;
     width: auto;
+}
+
+.shows-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+    height: 600px;
+
+    background-color: rgba(16,8,6,.4);
+    background-image: url(./images/Achtergrond2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.shows {
+    padding-top: 100px;
 }
