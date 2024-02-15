@@ -86,7 +86,8 @@ P {
 .shows-title,
 .music-title,
 .news-twitter-title,
-.news-updates-title {
+.news-updates-title,
+.contact-title {
     margin-bottom: 50px;
 }
 
@@ -160,6 +161,14 @@ P {
     align-items: center;
     justify-content: center;
     height: 80px;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    padding-top: 100px;
+    align-items: center;
 }
 
 .footer {
