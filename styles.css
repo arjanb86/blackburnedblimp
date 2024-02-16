@@ -68,6 +68,16 @@ P {
 .intro-text {
     margin-bottom: 30px;
     text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+
+    a:link, a:visited {
+        color: white;
+        text-decoration: none;
+    }
+     a:hover {
+        color: rgb(211, 185, 151);
+    }
 }
 
 .band-container {
@@ -166,7 +176,7 @@ P {
 .contact-container {
     display: flex;
     flex-direction: column;
-    height: 200px;
+    height: 80px;
     padding-top: 100px;
     align-items: center;
 }
